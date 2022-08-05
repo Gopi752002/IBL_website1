@@ -1,0 +1,422 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+h2{
+    font-size: 35px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-1,
+.btn{
+    color: #0a3474;
+}
+.container{
+    max-width: 1128px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: block;
+}
+/*===========================banner section==============*/
+.headr-menu li{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.headr-menu li a:hover{
+    color: blue !important;
+}
+.header-logo{
+    z-index: 1;
+    position: relative;
+}
+.header-logo:after {
+    position: absolute;
+    content: '';
+    left: -1000px;
+    top: -20px;
+    bottom: -10px;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 30px 0;
+}
+.background{
+    background: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.banner-image img{
+    max-width: 100%;
+}
+.banner-detail h1{
+    color: #0a3474;
+    font-size: 55px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.banner-detail p{
+    color: #0a3474;
+    font-size: 22px;
+}
+.banner-detail .btn-2{
+    background-color: #0a3474;
+}
+.banner-detail .btn-1,
+.banner-detail .btn-2{
+    padding: 13px 34px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+/*============================our approach section==========================*/
+.our-approach-info p{
+    max-width: 742px;
+    font-size: 18px;
+    margin: 9px auto;
+}
+.our-approach-detail h3{
+    font-size: 30px;
+}
+.our-approach-detail{
+    padding: 0 80px;
+}
+.our-approach-list{
+    list-style:disc;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+.our-approach-detail .btn{
+    margin: 0 70px;
+    background-color: #0a3474;
+}
+.our-approach-detail p{
+    padding: 0 70px;
+}
+.our-approach-list{
+    background-color: #f26f30;
+}
+/*========================gaurav section====================*/
+.gaurav-parvadiya{
+    background-color: #0a3474;
+}
+.gaurav-name{
+    color: #f36e32;
+    font-size: 25px;
+}
+.gaurav-info{
+    color: #879dbf;
+    font-size: 20px;
+}
+.gaurav-info span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+/*========================our core service section======================*/
+.logo{
+    margin-top: -50px;
+    margin-right: 30px;
+}
+.service-info{
+    text-align: left;
+}
+.service-post{
+    padding-top: 9%;
+}
+.service-info:hover .service{
+    color: #879dbf;
+}
+.service-info i{
+    font-size: 25px;
+}
+.service-info i{
+    color: #f36e32;
+}
+/*============================some work brand section========================*/
+.some-work-brand{
+    background-color: #ebf0f0;
+}
+.brand-logo{
+    width: 20%;
+    padding: 7px;
+}
+.brand-logo img{
+    border-radius: 5px;
+}
+.brand-info{
+    padding: 80px 0;
+}
+/*==================softwarw devlopment section===============*/
+.software-detail{
+    padding: 70px 0;
+}
+.software-info p{
+    line-height: 30px;
+}
+.software-info i{
+    font-size: 60px;
+    background-color:#ebf0f0;
+    color: #f26f30;
+    margin-top: 50px;
+    margin-left: 40px;
+} 
+.software-info h3{
+    margin-top: 70px;
+    margin-right:90px;
+}
+/*==========================technology stacks=====================*/
+.technology{
+    background-color: #ebf0f0;
+    padding: 80px 0;
+}
+.technology-menu{
+    font-size: 25px;
+} 
+.technology-menu li{
+    padding:  15px 37px;
+}
+.technology-menu li:hover a{
+    color:blue !important;
+    cursor: pointer;
+}
+.technology-menu a:after{
+    content: '';
+    position: absolute;
+    background-color: orangered;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom:0px;
+    transition: 0.3s;
+}
+.technology-menu a:hover:after{
+    width:100%;
+}
+.tabcontent{
+    display: none;
+}
+.icon{
+    width: 16%;
+    padding: 50px 5px 13px;
+    margin-left: 0.66%;
+}
+.tabcontent i{
+    font-size: 40px;
+    color: gray;
+     margin: 0 0px 16px;
+}
+.technology-menu li{
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+/*=================================solution section=========================*/
+.solution{
+    background: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+.solution-logo p{
+    font-size: 15px;
+}
+.solution-logo h3{
+    font-size: 25px;
+}
+/*==================================Guaranteed Customer Satisfaction=================*/
+.customer-satisfaction{
+    padding: 70px 0;
+}
+.customer-info {
+    margin-top:30%;
+}
+.customer-info h4{
+    font-size: 34px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.customer-info p{
+     max-width: 400px;
+}
+/*=====================footer-section===============*/
+.footer-info{
+    background-color: #0a3474;
+    padding: 50px 0;
+}
+.footer-detail input{
+    padding: 15px 130px 15px 15px;
+}
+.footer-email a{
+    margin-left: -50px;
+    background-color: orangered;
+    padding: 15px 20px;
+}
+.footer-email p{
+    font-size: 20px;
+}
+.footer-detail li,
+.latest-blog p{
+    color: #d1dddd;
+}
+.footer-detail li{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+.latest-blog p{
+    max-width: 200px;
+}
+.copyright p,
+.copyright-detail p{
+    font-size: 14px;
+}
+@media screen and (max-width:1199px) {
+    .banner-detail h1{
+        font-size: 49px;
+    }
+    .headr-menu li{
+        font-size: 14px;
+    }
+    .our-approach-detail h3{
+        font-size: 26px;
+    }
+    .our-approach-detail .btn{
+        margin: 0 50px;
+    }
+    .our-approach-detail p{
+        padding: 0 50px;
+    }
+    .gaurav-id h3{
+        font-size: 20px;
+    }
+    .gaurav-info{
+        font-size: 17px;
+    }
+    .software-info h3{
+        margin-right: 60px;
+    }
+    
+    
+}
+@media screen and (max-width:1024px){
+    .banner-detail h1{
+        font-size: 40px;
+    }
+    .banner-detail p{
+        font-size: 20px;
+    }
+    .banner-detail .btn-1,
+    .banner-detail .btn-2{
+        padding: 10px 20px;
+    }
+    .our-approach-detail{
+        text-align: center;
+        padding: 0 40px;
+    }
+    .our-approach-detail h3{
+        font-size: 33px;
+    }
+    .software-info p{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:991px) {
+    .banner-detail h1{
+        font-size: 35px;
+    }
+    .banner-detail p{
+        font-size: 18px;
+    }
+    .our-approach-detail{
+        text-align: center;
+        padding: 0 80px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .our-approach-info p{
+        font-size: 17px;
+    }
+    .our-approach-list li{
+        font-size: 19px;
+    }
+    .gaurav-detail {
+        text-align: center;
+    }
+    .gaurav-id{
+        width: 100%;
+        text-align: center !important;
+    }
+     .service-post{
+        padding-top: 6%;
+    }
+    .software-info h3{
+        margin-right: 40px;
+    }
+    .software-info p{
+        line-height: 25px;
+    }
+    .software-info h3 {
+        margin-right: 18px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .software-info i{
+        margin-top: 20px;
+    }
+    
+}
+@media screen  and (max-width:767px){
+    .banner-detail h1{
+        font-size: 45px;
+    }
+    .banner-detail p{
+        font-size: 22px;
+    }
+    .banner-detail .btn-1,
+    .banner-detail .btn-2{
+        padding: 13px 25px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .our-approach-detail{
+        padding: 0 20px;
+    }
+    .service-post{
+        max-width: 600px;
+    }
+    .brand-logo{
+        width: 33.33%;
+    }
+}
+@media screen  and (max-width:425px){
+    .banner-detail h1{
+        font-size: 38px;
+    }
+    .brand-logo{
+        width: 50%;
+    }
+}
